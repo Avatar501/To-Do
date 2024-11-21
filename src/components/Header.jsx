@@ -8,7 +8,9 @@ function Header() {
         <header>
             <h1>Task Manager</h1>
             <nav>
-                <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
+                <Link to="/"
+                className={location.pathname === '/' ? 'active' : ''}
+                >
                     Home
                 </Link>
                 <Link
