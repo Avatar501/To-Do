@@ -10,12 +10,12 @@ import Register from './pages/Register';
 // Create a BrowserRouter instance and pass routes to it.
 const router = createBrowserRouter([
   {
-    path: '/vite-react-router/',
+    path: '/To-Do/',
     element: <App/>,
     children: [
-      { path: '/vite-react-router/', element: <Home /> },
-      { path: '/vite-react-router/login', element: <Login /> },
-      { path:'/vite-react-router/register', element: <Register /> }
+      { path: '/To-Do/', element: <Home /> },
+      { path: '/To-Do/login', element: <Login /> },
+      { path:'/To-Do/register', element: <Register /> }
     ]
   }
 ]);
